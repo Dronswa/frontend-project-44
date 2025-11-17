@@ -1,3 +1,5 @@
 [user]
 	name = Кулаков Андрей
 	email = Dronswa@gmail.com
+[push]
+	autoSetupRemote = true
