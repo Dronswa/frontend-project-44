@@ -111,3 +111,23 @@ ssh-add ~/.ssh/id_ed25519
 ssh -T git@github.com
 git remote -v
 git push origin master
+node --version
+npm --version
+code .
+node bin/brain-games.js
+install:
+	npm ci
+install: npm ci
+sudo apt update
+sudo apt install make
+make install
+cat Makefile
+git add
+git commit
+git status
+git add
+git add .
+git commit
+git push
+git push origin master
+node bin/brain-games.js

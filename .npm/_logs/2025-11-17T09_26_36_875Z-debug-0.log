@@ -1,0 +1,90 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/dronlaptop/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm publish
+7 verbose argv "publish" "--dry-run"
+8 verbose logfile logs-max:10 dir:/home/dronlaptop/.npm/_logs/2025-11-17T09_26_36_875Z-
+9 verbose logfile /home/dronlaptop/.npm/_logs/2025-11-17T09_26_36_875Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 verbose publish [ '.' ]
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 notice
+15 notice 📦  @hexlet/code@1.0.0
+16 notice Tarball Contents
+17 notice 2.7kB .bash_history
+17 notice 220B .bash_logout
+17 notice 3.8kB .bashrc
+17 notice 36B .cache/Microsoft/DeveloperTools/deviceid
+17 notice 0B .cache/motd.legal-displayed
+17 notice 1.2kB .cache/typescript/5.9/package-lock.json
+17 notice 106B .cache/typescript/5.9/package.json
+17 notice 1.2kB .dotnet/corefx/cryptography/crls/7abcc12f.dea36fd7.crl
+17 notice 1.0kB .dotnet/corefx/cryptography/crls/75d1b2ed.de05bb98.crl
+17 notice 1.2kB .dotnet/corefx/cryptography/crls/7462804f.d5a68194.crl
+17 notice 1.1kB .dotnet/corefx/cryptography/crls/cf887acb.0f995861.crl
+17 notice 200.1kB .dotnet/corefx/cryptography/crls/d16da424.cbeb964c.crl
+17 notice 727B .dotnet/corefx/cryptography/ocsp/d16da424.a305d48e.ocsp
+17 notice 70B .gitconfig
+17 notice 20B .lesshst
+17 notice 0B .motd_shown
+17 notice 394.9kB .npm/_cacache/content-v2/sha512/05/fb/176f13b403aade06852cefb2e3ee2c3a04247a09fc37ecb3b50b8f36a5a3ac8cc6c114392af475d858e38f4f3d76c5800b7cfd4fde4e1954ebe0800ef228
+17 notice 2.1MB .npm/_cacache/content-v2/sha512/6b/07/b4ef92245f569f8db60cbc5c0794a61313efaac1e8229720dd55e0d8269ba2f00ed4dee1c7edab77f07b7a3d4ca0ab6a806bb996b3434faf42027c8bd10b
+17 notice 2.5MB .npm/_cacache/content-v2/sha512/9d/fe/6693addcde82fb603f1373280ff41a62835000376af5dafb7a1caf76ca77ddba84bb41655b2363c04a712b0d36fee980cf364c885f92d25db327023cbbb7
+17 notice 184.3kB .npm/_cacache/content-v2/sha512/33/5b/9090c97cad02bfb330f42cd86dab120f2e98a61a6f2c381c14ee52e70a949b4f2637c9e53555cee5e0a4f9cd3e2cff23b11c7e4eeed22eb8b3829cb00347
+17 notice 648.2kB .npm/_cacache/content-v2/sha512/48/03/dab900533faf1cc3c13c5b2e829c735f025e811238f26d472794e433c92fc9f8037ebcf3ee0c6599fa0b888acee0bb0c1312360c12ee60ce7161e0792350
+17 notice 612.0kB .npm/_cacache/content-v2/sha512/62/0f/1eb4c60fafcbd0c5978879898be0202ce844dc34f363686e166175fc1cd4a30b78077b13d7c1bda93adff341f2c5125d5fdcb7bd01466c594d369483c019
+17 notice 371.8kB .npm/_cacache/content-v2/sha512/96/3e/deef75d30a790ed6f81416df68e6bc1dddff719ba814e1683b2df3e77af54ad5e0081a06e3a94141e6a15f5ae040eb215aa34008eac5976b645d2216bfde
+17 notice 76.2kB .npm/_cacache/content-v2/sha512/ea/60/ef1d41528f24f6076c9e371da752033187d2ed396be4848537b9e3e7d88da8c8dca65005f5348b1d82f88ce021fe252ae9d83da1b0cbc93a4c58fb4c0d44
+17 notice 1.3MB .npm/_cacache/content-v2/sha512/fa/f6/bc2a26713bc196c76a51630d4551d672629a7a6b239638e180ce85d08465c37108f9704af92a2f2ca84f923b9798c2538f5ab0dc8eae32c1e7281aab34aa
+17 notice 2.2kB .npm/_cacache/index-v5/05/f2/5efeceaf581d5b606bdafad32623ddd75352cb1942290a9cd93d48923be6
+17 notice 692B .npm/_cacache/index-v5/53/80/4e29d148024a6ff9f3e641a42e77e36c0b86078eeac7871988791f78c959
+17 notice 725B .npm/_cacache/index-v5/60/38/d31625ceba037eab302c494b7c3a7598b8d29393ca569faac6a94f7d4c1a
+17 notice 1.5kB .npm/_cacache/index-v5/c1/3e/4c4d082623156529b4fa73601a4ac92e33a6b20f963f1096cee31b6d9010
+17 notice 234B .npm/_cacache/index-v5/c8/3a/6d0b2d63cc31d7815acdfbcd8f2b9155d9238c6367201b063b23d63139eb
+17 notice 693B .npm/_cacache/index-v5/d7/e8/33f7a29b111b37169ec2a38761bd24de56aea0054984709c1524016d03e6
+17 notice 706B .npm/_cacache/index-v5/db/fc/e2e6128f0ca3eb96161a69214e7ca29e3cb7bd1b8625cfe6e3e4a90a81a6
+17 notice 2.2kB .npm/_logs/2025-11-11T09_00_04_004Z-debug-0.log
+17 notice 3.0kB .npm/_logs/2025-11-11T09_00_05_739Z-debug-0.log
+17 notice 4.1kB .npm/_logs/2025-11-17T08_51_06_448Z-debug-0.log
+17 notice 4.1kB .npm/_logs/2025-11-17T08_52_44_290Z-debug-0.log
+17 notice 4.1kB .npm/_logs/2025-11-17T08_57_08_958Z-debug-0.log
+17 notice 4.1kB .npm/_logs/2025-11-17T08_58_13_790Z-debug-0.log
+17 notice 4.1kB .npm/_logs/2025-11-17T09_03_37_864Z-debug-0.log
+17 notice 1.9kB .npm/_logs/2025-11-17T09_15_17_372Z-debug-0.log
+17 notice 5.5kB .npm/_logs/2025-11-17T09_23_56_512Z-debug-0.log
+17 notice 3.9kB .npm/_logs/2025-11-17T09_24_48_536Z-debug-0.log
+17 notice 678B .npm/_logs/2025-11-17T09_26_36_875Z-debug-0.log
+17 notice 0B .npm/_update-notifier-last-checked
+17 notice 807B .profile
+17 notice 0B .sudo_as_admin_successful
+17 notice 183B .wget-hsts
+17 notice 88B Makefile
+17 notice 63B bin/brain-games.js
+17 notice 611B frontend-project-44/.github/workflows/hexlet-check.yml
+17 notice 378B frontend-project-44/.github/workflows/README.md
+17 notice 204B frontend-project-44/README.md
+17 notice 321B package.json
+18 notice Tarball Details
+19 notice name: @hexlet/code
+20 notice version: 1.0.0
+21 notice filename: hexlet-code-1.0.0.tgz
+22 notice package size: 4.1 MB
+23 notice unpacked size: 8.4 MB
+24 notice shasum: bd19f2241457d95a40726580feee9b075245915d
+25 notice integrity: sha512-FiUMnz0gC51sO[...]TWOy43a9B8Evw==
+26 notice total files: 53
+27 notice
+28 warn This command requires you to be logged in to https://registry.npmjs.org/ (dry-run)
+29 http fetch GET 404 https://registry.npmjs.org/@hexlet%2fcode 335ms (cache skip)
+30 http fetch GET 404 https://registry.npmjs.org/@hexlet%2fcode 104ms (cache skip)
+31 notice Publishing to https://registry.npmjs.org/ with tag latest and default access (dry-run)
+32 verbose cwd /home/dronlaptop
+33 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+34 verbose node v24.11.0
+35 verbose npm  v11.6.1
+36 verbose exit 0
+37 info ok

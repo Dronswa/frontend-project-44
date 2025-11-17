@@ -1,0 +1,64 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/dronlaptop/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm link
+7 verbose argv "link"
+8 verbose logfile logs-max:10 dir:/home/dronlaptop/.npm/_logs/2025-11-17T09_24_48_536Z-
+9 verbose logfile /home/dronlaptop/.npm/_logs/2025-11-17T09_24_48_536Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+12 silly idealTree buildDeps
+13 silly placeDep ROOT @hexlet/code@1.0.0 OK for:  want: file:../../home/dronlaptop
+14 silly reify moves {}
+15 silly audit bulk request { '@hexlet/code': [ '1.0.0' ] }
+16 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/@hexlet'
+16 verbose stack     at async mkdir (node:internal/fs/promises:861:10)
+16 verbose stack     at async #extractOrLink (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:785:5)
+16 verbose stack     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:678:7
+16 verbose stack     at async Promise.allSettled (index 0)
+16 verbose stack     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:326:11)
+16 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:128:5)
+16 verbose stack     at async Link.linkPkg (/usr/lib/node_modules/npm/lib/commands/link.js:147:5)
+16 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:208:9)
+16 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+17 error code EACCES
+18 error syscall mkdir
+19 error path /usr/lib/node_modules/@hexlet
+20 error errno -13
+21 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/@hexlet'
+21 error     at async mkdir (node:internal/fs/promises:861:10)
+21 error     at async #extractOrLink (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:785:5)
+21 error     at async /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:678:7
+21 error     at async Promise.allSettled (index 0)
+21 error     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:326:11)
+21 error     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:128:5)
+21 error     at async Link.linkPkg (/usr/lib/node_modules/npm/lib/commands/link.js:147:5)
+21 error     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:208:9)
+21 error     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:67:5) {
+21 error   errno: -13,
+21 error   code: 'EACCES',
+21 error   syscall: 'mkdir',
+21 error   path: '/usr/lib/node_modules/@hexlet'
+21 error }
+22 error
+22 error The operation was rejected by your operating system.
+22 error It is likely you do not have the permissions to access this file as the current user
+22 error
+22 error If you believe this might be a permissions issue, please double-check the
+22 error permissions of the file and its containing directories, or try running
+22 error the command again as root/Administrator.
+23 silly unfinished npm timer reify 1763371488674
+24 silly unfinished npm timer reify:audit 1763371488689
+25 silly unfinished npm timer auditReport:getReport 1763371488689
+26 silly unfinished npm timer reify:unpack 1763371488692
+27 silly unfinished npm timer reifyNode:node_modules/@hexlet/code 1763371488692
+28 verbose cwd /home/dronlaptop
+29 verbose os Linux 6.6.87.2-microsoft-standard-WSL2
+30 verbose node v24.11.0
+31 verbose npm  v11.6.1
+32 verbose exit -13
+33 verbose code -13
+34 error A complete log of this run can be found in: /home/dronlaptop/.npm/_logs/2025-11-17T09_24_48_536Z-debug-0.log
