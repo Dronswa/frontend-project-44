@@ -1,1 +1,1 @@
-{"private":true,"dependencies":{"types-registry":"^0.1.746"},"devDependencies":{"@types/react":"^19.2.2"}}
+{"private":true,"dependencies":{"types-registry":"^0.1.748"},"devDependencies":{"@types/react":"^19.2.2","@types/readline-sync":"^1.4.8"}}
